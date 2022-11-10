@@ -25,9 +25,10 @@
 // document.write(info)
 
 
+let numbers = [34, 35];
+let sum = numbers[0] + numbers[1];
 
-
-
+document.write(sum);
 
 
 
@@ -46,4 +47,3 @@
 // console.log(newText);
 
 // console.log(trueFalse);
- 
