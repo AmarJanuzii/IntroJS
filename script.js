@@ -23,14 +23,57 @@
 // let info = ["Amar Januzi", "Innovation Academy", 13, "Vushtrri", true ];
 
 // document.write(info)
+// let numbers = [34, 35];
+// let sum = numbers[0] + numbers[1];
+
+// const phone = {
+//   type: "IPhone",
+//   color: "Space Gray",
+//   model: "XR",
+//   used: false,
+// };
 
 
-let numbers = [34, 35];
-let sum = numbers[0] + numbers[1];
+// const info = {
 
-document.write(sum);
+//     name:"Amar",
+//     surname:"Januzi",
+//     age:13,
+//     gender:"male",
+//     address:"Vushtrri"
+// phoneNumber:048343480,
+// }
 
 
+let name = "Amar";
+let surname = "Januzi";
+let age = 13;
+let gender = "Male";
+let address = "Vushtrri";
+let phone = "048-34-34-80";
+let email = "amarjanuzi5@gmail.com";
+let isAdult = false;
+
+
+let info;
+
+
+info = "My name is"  + " "  + name +" "+ surname + " " +"I am" + " " +age +" I also live in " + " "  +address + "<br>" + "My email is" + email +" "+  "also my number is" +" "+  phone + "<br>"  + "My gender is " + " " + gender + "<br>" +"Is an adult" + " " + isAdult;
+
+
+document.write(info);
+
+
+// const laptop = {
+//   type: "Apple",
+//   color: "Gray",
+//   model: "Air M2",
+//   used: true,
+// };
+
+
+
+// document.write(sum);
 
 // document.write("Name:" + nameSurname + "<br>");
 // document.write("School:" + schoolName + "<br>");
