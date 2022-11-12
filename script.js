@@ -45,23 +45,45 @@
 // }
 
 
-let name = "Amar";
-let surname = "Januzi";
-let age = 13;
-let gender = "Male";
-let address = "Vushtrri";
-let phone = "048-34-34-80";
-let email = "amarjanuzi5@gmail.com";
-let isAdult = false;
+// let name = "Amar";
+// let surname = "Januzi";
+// let age = 13;
+// let gender = "Male";
+// let address = "Vushtrri";
+// let phone = "048-34-34-80";
+// let email = "amarjanuzi5@gmail.com";
+// let isAdult = false;
 
 
-let info;
+const info = {
+
+    name:"Amar",
+    surname: "Januzi",
+    age: 13,
+    gender: "Male",
+    address: "Vushtrri",
+    phone: "048-34-34-80",
+    email: "amarjanuzi5@gmail.com",
+    isAdult :false
 
 
-info = "My name is"  + " "  + name +" "+ surname + " " +"I am" + " " +age +" I also live in " + " "  +address + "<br>" + "My email is" + email +" "+  "also my number is" +" "+  phone + "<br>"  + "My gender is " + " " + gender + "<br>" +"Is an adult" + " " + isAdult;
+}
+
+let text = "Name " + info.name + " Surname "  + info.surname;
+
+document.write(text)
+console.log(info.email,+ info.age)
 
 
-document.write(info);
+
+
+// let info;
+
+
+// info = "My name is"  + " "  + name +" "+ surname + " " +"I am" + " " +age +" I also live in " + " "  +address + "<br>" + "My email is " + email +" "+  "also my number is" +" "+  phone + "<br>"  + "My gender is " + " " + gender + "<br>" +"Is an adult" + " " + isAdult;
+
+
+// document.write(info);
 
 
 // const laptop = {
